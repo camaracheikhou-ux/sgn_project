@@ -1,0 +1,13 @@
+# Fichiers générés par Flex et Bison
+src/lex.yy.c
+src/parser.tab.c
+src/parser.tab.h
+
+# Fichiers compilés
+src/sgn
+src/*.o
+
+# Fichiers système
+__pycache__/
+*.pyc
+.DS_Store

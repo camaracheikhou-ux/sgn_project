@@ -1,0 +1,25 @@
+-- Test erreurs semantiques
+ANNEE "2025-2026"
+
+NIVEAU L1 {
+    ETUDIANT {
+        MATRICULE : "L1-2025-001"
+        NOM : "DIALLO Mamadou"
+        PRENOM : "Mamadou"
+        SEMESTRE S1 {
+            MODULE "Algorithmique" COEF 3 NOTE 25.0
+            MODULE "Mathematiques" COEF 0 NOTE 12.0
+        }
+        SEMESTRE S3 {
+            MODULE "Bases de Donnees" COEF 3 NOTE 15.0
+        }
+    }
+    ETUDIANT {
+        MATRICULE : "L1-2025-001"
+        NOM : "NDIAYE Fatou"
+        PRENOM : "Fatou"
+        SEMESTRE S2 {
+            MODULE "Programmation C" COEF 3 NOTE 11.0
+        }
+    }
+}
